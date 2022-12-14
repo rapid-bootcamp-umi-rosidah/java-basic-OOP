@@ -1,6 +1,8 @@
-package javaOOP;
+package javaOOP.logic;
 
-import javaOOP.logic.*;
+import javaOOP.logic.logic02.Logic02Soal01;
+import javaOOP.logic.logic02.Logic02Soal09;
+import javaOOP.logic.logic02.Logic02Soal10;
 
 public class MainLogic2 {
     public static void main(String[] args) {

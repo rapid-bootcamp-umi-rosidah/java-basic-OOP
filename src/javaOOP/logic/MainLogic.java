@@ -1,6 +1,6 @@
-package javaOOP;
+package javaOOP.logic;
 
-import javaOOP.logic.*;
+import javaOOP.logic.logic01.*;
 
 
 public class MainLogic {

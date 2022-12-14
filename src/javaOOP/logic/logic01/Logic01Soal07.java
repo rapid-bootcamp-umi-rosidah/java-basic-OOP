@@ -1,4 +1,6 @@
-package javaOOP.logic;
+package javaOOP.logic.logic01;
+
+import javaOOP.logic.BasicLogic;
 
 public class Logic01Soal07 extends BasicLogic {
 
