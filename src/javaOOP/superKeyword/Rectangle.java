@@ -1,4 +1,4 @@
-package javaOOP.superkeyword;
+package javaOOP.superKeyword;
 
 public class Rectangle extends Shape{
     int getCorner(){

@@ -1,4 +1,4 @@
-package solutionlogic;
+package solutionLogic;
 
 public class Logic1 {
     public static void main(String[] args) {

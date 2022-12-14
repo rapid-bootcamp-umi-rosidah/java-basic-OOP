@@ -8,10 +8,28 @@ public class MainPolymorphism {
         VicePresident vicePresident = new VicePresident("Joko");
 
         // call method
-        employee.sayHello();
-        manager.sayHello();
-        vicePresident.sayHello();
+        //employee.sayHello();
+        //manager.sayHello();
+        //vicePresident.sayHello();
+
+        sayHello(vicePresident);
+        sayHello(manager);
+        sayHello(employee);
+    }
+
+    public static void sayHello(Employee employee){
+        if(employee instanceof VicePresident){
+            VicePresident vicePresident = (VicePresident) employee;
+            System.out.println("Hello VP "+ vicePresident.name);
+        } else if (employee instanceof Manager) {
+            Manager manager = (Manager) employee;
+            System.out.println("Hello Manager "+ manager.name);
+        }else {
+            System.out.println("Hello Employee "+ employee.name);
+        }
     }
 }
+
+
 
 

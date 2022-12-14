@@ -1,4 +1,4 @@
-package solutionlogic;
+package solutionLogic;
 
 public class PrintArray {
     public static void print(int[] array){

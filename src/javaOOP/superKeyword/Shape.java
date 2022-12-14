@@ -1,4 +1,4 @@
-package javaOOP.superkeyword;
+package javaOOP.superKeyword;
 
 public class Shape {
     int getCorner(){
